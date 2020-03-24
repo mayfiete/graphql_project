@@ -1,7 +1,7 @@
 
 const authors = require('./author'); 
 const {PubSub} = require('apollo-server-express'); 
-cont pubsub = new PubSub();  
+const pubsub = new PubSub();  
 
 const AUTHORS_TOPIC = "newAuthor"; 
 

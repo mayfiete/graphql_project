@@ -23,6 +23,9 @@ const typeDefs = `
         updateAuthor(id: ID!, name: String, gender: String, age: Int): Author
         deleteAuthor(id: ID!): DeleteMessage
     }
+    type Subscription { 
+        createAuthorWithSubscription: Author
+    }
 `; 
 
 module.exports = typeDefs; 
